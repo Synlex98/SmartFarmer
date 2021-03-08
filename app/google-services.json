@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348285046268",
+    "project_id": "smartfarmer-369bb",
+    "storage_bucket": "smartfarmer-369bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348285046268:android:271ed4b20b999a864c3679",
+        "android_client_info": {
+          "package_name": "com.fibo.smartfarmer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348285046268-srbrc2nqpbfknnvim66ri77nqhn26maf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC9Isir88vFecseN8kCP8nRPWo-3TR-0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348285046268-srbrc2nqpbfknnvim66ri77nqhn26maf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

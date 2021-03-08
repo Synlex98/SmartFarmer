@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SmartFarmer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_logo">app logo</string>
+    <string name="step_1">step 1</string>
+    <string name="input_username">Input Username</string>
+    <string name="input_phone_number">Input Phone Number</string>
+    <string name="next">Next</string>
+    <string name="input_user_location">Input User Location</string>
+    <string name="input_password">Input Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="input_the_pin_sent_to_your_phone_number">Input the Code Sent to your number</string>
+    <string name="finish">Finish</string>
+    <string name="login_to_the_smart_farmer_app">Login to the Smart Farmer app</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgot_password_click_here_to_reset">Forgot Password? Click here to Reset</string>
+</resources>
