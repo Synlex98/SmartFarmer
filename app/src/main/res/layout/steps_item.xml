@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.StepsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:id="@+id/task1"
+        app:cardUseCompatPadding="true"
+        android:layout_margin="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/step_1_of_4"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+                android:gravity="center_horizontal"
+                app:drawableStartCompat="@drawable/numeric_1_circle"
+                app:drawableTint="@color/green"
+                android:id="@+id/step1"
+                android:layout_centerHorizontal="true"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_more_vert_24"
+                android:layout_toEndOf="@+id/step1"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/optionView"
+                android:layout_marginBottom="20dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/step1"
+                android:src="@drawable/ic_baseline_highlight_24"
+                android:id="@+id/tips"/>
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/farm_clearance"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+                android:id="@+id/clearance"
+                android:layout_below="@+id/step1"
+                android:layout_toEndOf="@+id/tips"
+                android:layout_margin="20dp"
+                android:layout_alignParentEnd="true"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/clearance"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_outline_pending_24"
+                android:id="@+id/donePending"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

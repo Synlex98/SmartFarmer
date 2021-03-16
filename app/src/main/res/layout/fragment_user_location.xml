@@ -16,19 +16,35 @@
         android:layout_margin="10dp"
         app:boxStrokeColor="@color/green"
         app:hintEnabled="true"
+        android:hint="@string/input_user_email"
+        app:counterEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textEmailAddress"
+            android:id="@+id/userEmailInput"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_margin="10dp"
+        app:boxStrokeColor="@color/green"
+        app:hintEnabled="true"
         android:hint="@string/input_user_location"
         app:counterEnabled="true">
          <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:inputType="phone"
+            android:inputType="text"
             android:id="@+id/userLocationEdit"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next"
+        android:text="@string/finish"
         android:layout_gravity="bottom|end"
         android:layout_margin="10dp"
         android:id="@+id/next"

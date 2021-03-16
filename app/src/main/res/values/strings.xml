@@ -16,4 +16,26 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="forgot_password_click_here_to_reset">Forgot Password? Click here to Reset</string>
+    <string name="highlight_image">highlight image</string>
+    <string name="please_wait">Please wait</string>
+    <string name="input_user_email">Input User Email</string>
+    <string name="fab">FAB</string>
+    <string name="number_of_farms">Number of farms</string>
+    <string name="_12">12</string>
+    <string name="total_farm_size">Total farm Size</string>
+    <string name="farm_size">Farm Size</string>
+    <string name="harvested_stock">Harvested Stock</string>
+    <string name="current_stage">Current Stage</string>
+    <string name="input_number_of_farms">Input Number Of Farms</string>
+    <string name="input_the_size_of_the_farms">Input The Size of the Farms</string>
+    <string name="stock_input">Stock Input</string>
+    <string name="input_harvested_stock">Input Harvested Stock</string>
+    <string name="save">Save</string>
+    <string name="profile">Profile</string>
+    <string name="farm_market">Farm Market</string>
+    <string name="chatroom">ChatRoom</string>
+    <string name="create_a_new_season">Create a New Season</string>
+    <string name="step_1_of_4">Step 1 of 4</string>
+    <string name="farm_clearance">Farm Clearance</string>
+    <string name="step_2_of_4">Step 2 of 4</string>
 </resources>

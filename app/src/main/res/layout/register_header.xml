@@ -59,22 +59,6 @@
             android:id="@+id/step3"
             android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"/>
-        <View
-            android:layout_width="40dp"
-            android:layout_height="3dp"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:background="@color/white"
-            android:layout_marginStart="0dp"
-            />
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/numeric_4_circle"
-            android:contentDescription="@string/step_1"
-            android:id="@+id/step4"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="10dp"/>
     </LinearLayout>
 
 
