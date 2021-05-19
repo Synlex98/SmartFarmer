@@ -16,8 +16,9 @@ public class User {
         return user;
     }
 
-    public void setUserEmail(String userEmail) {
+    public User setUserEmail(String userEmail) {
         this.userEmail = userEmail;
+        return this;
     }
 
     public String getUserEmail() {

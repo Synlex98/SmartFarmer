@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">SmartFarmer</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="app_logo">app logo</string>
     <string name="step_1">step 1</string>
     <string name="input_username">Input Username</string>
@@ -10,7 +9,6 @@
     <string name="input_user_location">Input User Location</string>
     <string name="input_password">Input Password</string>
     <string name="confirm_password">Confirm Password</string>
-    <string name="input_the_pin_sent_to_your_phone_number">Input the Code Sent to your number</string>
     <string name="finish">Finish</string>
     <string name="login_to_the_smart_farmer_app">Login to the Smart Farmer app</string>
     <string name="login">Login</string>
@@ -20,22 +18,23 @@
     <string name="please_wait">Please wait</string>
     <string name="input_user_email">Input User Email</string>
     <string name="fab">FAB</string>
-    <string name="number_of_farms">Number of farms</string>
-    <string name="_12">12</string>
-    <string name="total_farm_size">Total farm Size</string>
-    <string name="farm_size">Farm Size</string>
-    <string name="harvested_stock">Harvested Stock</string>
-    <string name="current_stage">Current Stage</string>
-    <string name="input_number_of_farms">Input Number Of Farms</string>
-    <string name="input_the_size_of_the_farms">Input The Size of the Farms</string>
-    <string name="stock_input">Stock Input</string>
-    <string name="input_harvested_stock">Input Harvested Stock</string>
-    <string name="save">Save</string>
     <string name="profile">Profile</string>
     <string name="farm_market">Farm Market</string>
     <string name="chatroom">ChatRoom</string>
-    <string name="create_a_new_season">Create a New Season</string>
-    <string name="step_1_of_4">Step 1 of 4</string>
-    <string name="farm_clearance">Farm Clearance</string>
-    <string name="step_2_of_4">Step 2 of 4</string>
+    <string name="smart_tips_for_farm_clearance">Smart Tips for Farm Clearance</string>
+    <string name="close">Close</string>
+    <string name="click_to_add_images">Click to add Images</string>
+    <string name="pest_control">Pest Control</string>
+    <string name="health_status">Health Status</string>
+    <string name="healthy">Healthy</string>
+    <string name="detected_pest_disease">Detected Pest/Disease</string>
+    <string name="army_worms">Army Worms</string>
+    <string name="control_measures">Control Measures</string>
+    <string name="more_info">More Info</string>
+    <string name="prediction_accuracy">Prediction Accuracy</string>
+    <string name="_70">70%</string>
+    <string name="input_text">Input Text</string>
+    <string name="send_message_button">Send Message Button</string>
+    <string name="_13_01_2021_12_18_pm">13/01/2021 @12:18 pm</string>
+    <string name="log_out">Log Out</string>
 </resources>

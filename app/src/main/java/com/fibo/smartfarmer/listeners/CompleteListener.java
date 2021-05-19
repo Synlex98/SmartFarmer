@@ -1,6 +1,9 @@
 package com.fibo.smartfarmer.listeners;
 
-import com.google.firebase.auth.PhoneAuthOptions;
+import com.fibo.smartfarmer.models.Disease;
+
+import java.io.File;
+import java.util.List;
 
 public interface CompleteListener {
     default void onComplete(){
@@ -8,6 +11,18 @@ public interface CompleteListener {
     }
 
     default void onError(String message){
+
+    }
+
+    default void onComplete(File file){
+
+    }
+
+    default void onComplete(String message){
+
+    }
+
+    default void onComplete(List<Disease> diseaseList){
 
     }
 

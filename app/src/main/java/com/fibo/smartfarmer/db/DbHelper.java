@@ -22,13 +22,25 @@ public class DbHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String CREATE_SEASON_QUERY="CREATE TABLE IF NOT EXISTS "+Constants.SEASON_TABLE+" ( "+Constants.SEASON_ID+ " INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,"+
                 Constants.FARM_SIZE+" TEXT NOT NULL ,"+Constants.NO_OF_FARMS+" TEXT NOT NULL,"+
-                Constants.HARVESTED_STOCK+" TEXT NOT NULL ,"+Constants.CURRENT_STAGE+" NOT NULL)";
+                Constants.HARVESTED_STOCK+" TEXT NOT NULL ,"+Constants.CURRENT_STAGE+"TEXT NOT NULL)";
         db.execSQL(CREATE_SEASON_QUERY);
 
         String CREATE_STEPS_QUERY="CREATE TABLE IF NOT EXISTS "+Constants.STEPS_TABLE+" ( "+Constants.STEP_ID+ " INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,"+
                 Constants.STEP_SEASON_ID+" INTEGER NOT NULL ,"+Constants.STEP_STATUS+" TEXT NOT NULL,"+
                 Constants.STEP_NAME+" TEXT NOT NULL )";
         db.execSQL(CREATE_STEPS_QUERY);
+
+        String CREATE_HISTORY_QUERY="CREATE TABLE IF NOT EXISTS "+Constants.HISTORY_TABLE+" ( "+
+                Constants.STEP_SEASON_ID+" INTEGER NOT NULL ,"+Constants.LAST_PEST_DATE+" TEXT NOT NULL,"+
+                Constants.LAST_SPRAY_DATE+" TEXT NOT NULL )";
+        db.execSQL(CREATE_HISTORY_QUERY);
+
+        String CREATE_CHAT_QUERY="CREATE TABLE IF NOT EXISTS "+Constants.CHAT_TABLE+" ( "+Constants.CHAT_ID+ " INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,"+
+                Constants.FROM_ID+" TEXT NOT NULL ,"+Constants.FROM_NAME+" TEXT NOT NULL,"+
+                Constants.MESSAGE_ID+" TEXT NOT NULL ,"+Constants.MESSAGE_BODY+" TEXT NOT NULL,"+Constants.TIME_SENT+" TEXT NOT NULL)";
+        db.execSQL(CREATE_CHAT_QUERY);
+
+
 
     }
 

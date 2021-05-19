@@ -1,0 +1,169 @@
+{
+  "ADC 600-23": {
+    "Qualities": [
+      "sweet taste",
+      "no lodging",
+      "it prodices double cob",
+      "resistant to rust,grey leaf,leaf blight"
+    ],
+    "area": [
+      "kisii",
+      "trans nzoia",
+      "uansin gishu",
+      "west pokot",
+      "keiyo",
+      "marakwet",
+      "laikipia",
+      "nakuru"
+    ]
+  },
+  "KH500-33A": {
+    "Qualities": [
+      "resistant to maize streakvirus",
+      "resistant to weevel damage",
+      "large cobe and stalk",
+      "good taste as green maize when roaste"
+    ],
+    "areas": [
+      "kakamega",
+      "bungoma",
+      "busia",
+      "kisii",
+      "Homabay",
+      "Migori",
+      "siaya",
+      "kericho",
+      "bomet",
+      "Narok",
+      "sotic",
+      "kiambu",
+      "machakos",
+      "kitui",
+      "meru",
+      "Embu",
+      "kirinyaga"
+    ]
+  },
+  "KH600-14E": {
+    "Qualities": [
+      "not easily attacked by weevils",
+      "has excellent husk cover",
+      "tolerant to grey leaf spot disease"
+    ],
+    "area": [
+      "kisii",
+      "trans nzoia",
+      "uansin gishu",
+      "west pokot",
+      "keiyo",
+      "marakwet",
+      "laikipia",
+      "nakuru",
+      "kiambu"
+    ]
+  },
+  "KH600-15A": {
+    "Qualities": [
+      "good husk cover",
+      "very good standability",
+      "on maturity prevent grain rot",
+      "tolerant to maize streak virus and blight"
+    ],
+    "area": [
+      "kisii",
+      "trans nzoia",
+      "uansin gishu",
+      "west pokot",
+      "keiyo",
+      "marakwet",
+      "laikipia",
+      "nakuru",
+      "taita",
+      "nyeri",
+      "kericho",
+      "nyandrua",
+      "busia",
+      "kakamega",
+      "bungoma"
+    ]
+  },
+  "WH 403": {
+    "Qualities": [
+      "good husk cover",
+      "does not lodge",
+      "maturity 4 month"
+    ],
+    "areas": [
+      "kakamega",
+      "bungoma",
+      "busia",
+      "kisii",
+      "Homabay",
+      "Migori",
+      "siaya",
+      "kericho",
+      "bomet",
+      "Narok",
+      "sotic",
+      "kiambu",
+      "machakos",
+      "kitui",
+      "meru",
+      "Embu",
+      "kirinyaga"
+    ]
+  },
+  "WH 505": {
+    "Qualities": [
+      "majurity 4 months",
+      "tolerant to drought",
+      "tolerant to most leaf diseases"
+    ],
+    "areas": [
+      "kakamega",
+      "bungoma",
+      "busia",
+      "kisii",
+      "Homabay",
+      "Migori",
+      "siaya",
+      "kericho",
+      "bomet",
+      "Narok",
+      "sotic",
+      "kiambu",
+      "machakos",
+      "kitui",
+      "meru",
+      "Embu",
+      "kirinyaga"
+    ]
+  },
+  "WH 507": {
+    "Qualities": [
+      "mature in 4 months",
+      "do well in dry regions ",
+      "it has big cob",
+      "good for green maize"
+    ],
+    "areas": [
+      "kakamega",
+      "bungoma",
+      "busia",
+      "kisii",
+      "Homabay",
+      "Migori",
+      "siaya",
+      "kericho",
+      "bomet",
+      "Narok",
+      "sotic",
+      "kiambu",
+      "machakos",
+      "kitui",
+      "meru",
+      "Embu",
+      "kirinyaga"
+    ]
+  }
+}

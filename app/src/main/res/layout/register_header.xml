@@ -7,7 +7,7 @@
 <ImageView
     android:layout_width="200dp"
     android:layout_height="200dp"
-    android:src="@drawable/ic_baseline_grass_24"
+    android:src="@drawable/logo3"
     android:layout_centerHorizontal="true"
     android:id="@+id/logo"
     android:contentDescription="@string/app_logo"/>

@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item
-    android:id="@+id/profileMenu"
-    android:title="@string/profile"
-    android:orderInCategory="100"
-    android:icon="@drawable/ic_baseline_account_green"/>
 
     <item
-        android:id="@+id/marketMenu"
-        android:title="@string/farm_market"
+        android:id="@+id/logoutMenu"
+        android:title="@string/log_out"
         android:orderInCategory="200"
-        android:icon="@drawable/ic_baseline_monetization_on_24"/>
+       />
 
     <item
         android:id="@+id/chatMenu"
         android:title="@string/chatroom"
-        android:orderInCategory="100"
+        android:orderInCategory="300"
         android:icon="@drawable/ic_baseline_chat_24"/>
-
-
 
 
 </menu>

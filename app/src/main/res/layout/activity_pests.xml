@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.PestsActivity">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:id="@+id/toolbar">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:id="@+id/avatar"/>
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_baseline_add_photo_alternate_24"
+        android:scaleType="fitXY"
+        android:id="@+id/addImage"
+        android:layout_below="@+id/toolbar"
+        android:contentDescription="@string/click_to_add_images" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/addImage"
+    android:padding="5dp"
+    android:id="@+id/scroller"
+    android:visibility="gone">
+    <include
+        layout="@layout/learning_result"/>
+
+</ScrollView>
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:fabSize="normal"
+    android:visibility="gone"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_margin="20dp"
+    android:src="@drawable/ic_check_white"
+    app:backgroundTint="@color/green"
+    app:rippleColor="@color/white"
+    app:useCompatPadding="true"
+    android:id="@+id/done"
+    android:contentDescription="@string/fab"/>
+
+</RelativeLayout>

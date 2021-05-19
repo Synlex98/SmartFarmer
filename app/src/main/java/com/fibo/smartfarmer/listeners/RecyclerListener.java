@@ -11,4 +11,8 @@ public interface RecyclerListener {
     default void onTips(View v, int position){
 
     }
+
+    default void onRefresh(){
+
+    }
 }

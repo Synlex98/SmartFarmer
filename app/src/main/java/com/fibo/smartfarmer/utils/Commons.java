@@ -10,6 +10,8 @@ import com.fibo.smartfarmer.R;
 import com.fibo.smartfarmer.db.DbManager;
 import com.fibo.smartfarmer.models.Season;
 
+import java.util.Calendar;
+
 public class Commons {
     public void showToast(Context context, String message){
 
@@ -28,7 +30,21 @@ public class Commons {
         DbManager manager=new DbManager(context).open();
         Season season=manager.getLastSeason();
         manager.closeDb();
+        if (season==null){
+            return true;
+        }
 
-        return season.getCurrentStage().equals(Constants.HARVESTING_STAGE);
+        return season.getCurrentStage()==null || season.getCurrentStage().equals(Constants.HARVESTING_STAGE);
     }
+
+    public String getCurrentTime(){
+        Calendar calendar=Calendar.getInstance();
+        return calendar.get(Calendar.DATE)+"/"+(calendar.get(Calendar.MONTH)+1) +"/"+calendar.get(Calendar.YEAR)+" @"+calendar.get(Calendar.HOUR_OF_DAY)+":"+calendar.get(Calendar.MINUTE);
+    }
+
+    public String generateMessageId(){
+      return String.valueOf(System.nanoTime());
+    }
+
+
 }
